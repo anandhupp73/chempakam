@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    width: 100%;
+    height:100px ;
+}
+.marqe{
+    background-color: #FFE8DF;
+    height: 20px;
+}
+.nav{
+    background-color:#54595F ;
+    height: 80px;
+    display: grid;
+    grid-template-columns:25% 25% 20% 20% ;
+    justify-content:center;
+}
+.logo img{
+    height: 70px;
+}
+.navigations{
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.searchbar{
+    padding-top: 25px;
+}
+.icons{
+    padding-top: 25px;
+    justify-content: space-evenly;
+}
+.fb{
+    height: 30px;
+}
+.linkedin{
+    height: 30px;
+}
