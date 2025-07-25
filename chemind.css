@@ -10,6 +10,11 @@
 .marqe{
     background-color: #FFE8DF;
     height: 20px;
+    /* width: 80%; */
+}
+.marqe .marqemsg{
+   padding: 0% 15% 0% 15%;
+  
 }
 .nav{
     background-color:#54595F ;
@@ -24,22 +29,42 @@
 .navigations{
     padding-top: 25px;
 }
-a{
+.navigations a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    color: rgb(253, 253, 253);
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 5px;
+    /* display:inline-block; */
     
 }
 .searchbar{
     padding-top: 25px;
 }
+.searchbar .search{
+    height: 30px;
+}
 .icons{
     padding-top: 25px;
     justify-content: space-evenly;
 }
+.icons a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
 .fb{
-    height: 30px;
+    height: 20px;
 }
 .linkedin{
-    height: 30px;
+    height: 20px;
+   border-radius: 10px;
+}
+.wishlist{
+    height: 20px;
+}
+.cart{
+    height: 20px;
 }
