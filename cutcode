@@ -1,0 +1,100 @@
+.section3{
+    width: 100%;
+    height: 800px;
+    /* background-color: #b4c0b0; */
+    display: grid;
+    /* justify-content: center; */
+    justify-items: center;
+    /* grid-template-rows: 30px 200px 40px; */
+}
+.bestsellprod{
+    width: 60%;
+    height: 30px;
+    /* background-color: aqua; */
+    justify-items: center;
+    color: rgb(167, 166, 167);
+    font-size: 20px;
+}
+.bspimg{
+    width: 100%;
+    height: 200px;
+    /* background-color: #130500; */
+    /* padding-top: 300px; */
+    /* position: relative; */
+    /* display: grid;
+    grid-template-columns: 30% 50% ;
+    padding-left: 30px;*/
+} 
+.firstbspimg{
+    width: 25%;
+    height: 60%;
+    /* position: absolute; */
+    /* background-color: aliceblue; */
+    /* top: 5%; */
+    /* padding-left: 100px; */
+}
+.firstbspimg img{
+    width: 80%;
+    height: 286px;
+}
+/* .firstbspimg a{
+    text-decoration: none;
+    color: black;
+} */
+ .proddes{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 5px;
+ }
+ .proddes a{
+    /* padding-top: 30px; */
+    text-decoration: none;
+    color: black;
+ }
+ .proddes .favicon{
+    padding-left: 110px;
+    /* padding-top: 5px; */
+    padding-bottom: 10px;
+ }
+ .rs{
+    padding-top: 15px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .btnadcart{
+    padding-top: 20px;
+ }
+ .addtoc{
+    /* padding-top: 20px; */
+    width: 150px;
+    height: 50px;
+    background: #F0F0F0;
+    border: 1px solid #888888;
+    color: #888888;
+ }
+ /* <div class="section3">
+            <div class="bestsellprod">
+                <h2>Best Selling Products</h2>
+            </div>
+            <div class="bspimg">
+                <div class="firstbspimg">
+                    <img src="images/bsimg.png" alt="">
+                </div>
+                <div class="proddes">
+                    <a href="">Organza top, organza dupatta & Shantoon bottom
+                    </a>
+                    <a href=""><span class="material-symbols-outlined favicon">
+                            favorite
+                        </span></a>
+                        <div class="rs ">$3,600.00</div>
+                        <div class="btnadcart">
+                            <button class="addtoc">Add to Cart</button>
+                        </div>
+                </div>
+            </div>
+            <div class="brmore">5</div>
+
+        </div> */
