@@ -181,9 +181,9 @@
     width: 20%;
 }
 .bandrs{
-    width: 100%;
+    width: 99%;
     /* height: 200px; */
-    /* background-color: black; */
+    background-color: black;
    padding-top: 10px;
    padding-left: 10px;
 }
