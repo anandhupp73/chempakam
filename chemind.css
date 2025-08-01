@@ -232,6 +232,7 @@
     justify-content: space-around;
     /* background-color: aqua; */
     gap: 10px;
+    padding-top: 20px;
 }
 .card1{
     width: 100%;
@@ -240,6 +241,65 @@
     height: 200px;
     width: 100%;
 } 
+.bsmore2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.bsmore2 button{
+    width: 200px;
+    height: 30px;
+    color: rgb(136, 133, 130);
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    /* grid-template-rows: 150px 100px 50px px 300px 300px; */
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+.flogo{
+    padding-top: 20px;
+}
+.ficons img{
+   height: 40px;
+   padding: 20px;
+
+}
+.rights{
+    /* background-color: aliceblue; */
+    text-align: center;
+    /* font-size: 30px; */
+    font-weight: bold;
+    color: darkgrey;
+    padding-top: 20px;
+}
+.solutions , ul{
+    /* background-color: aliceblue; */
+    /* width: 50%; */
+    color: darkgray;
+    /* font-size: 30px; */
+    list-style-type: none;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+.aboutus ,ul{
+    color: darkgray;
+    /* font-size: 30px; */
+    list-style-type: none;
+    justify-content: center;
+    justify-items: center;
+}
+.contact ,a , ul{
+    color:darkgray ;
+    /* font-size: 30px; */
+    text-decoration: none;
+
+}
 @media (max-width:1200px) and (min-width:770px) {
     .nav{
         grid-template-columns: 100%;
@@ -255,6 +315,10 @@
         justify-content: center;
         justify-items: center;
         top: 15%;
+    }
+    .nacards{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 400px 400px 400px 400px;
     }
 }
 @media (max-width:769px) and (min-width:577px)
@@ -279,7 +343,10 @@
         /* padding: 50px; */
         justify-content:space-evenly;
     }
-    
+    .nacards{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 400px 400px 400px 400px;
+    }
 }
 @media (max-width:576px) {
     .nav{
@@ -306,6 +373,15 @@
     font-size:20px;
     font-weight: bold;
     color: rgb(177, 177, 168);
+}
+.nacards{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 400px 400px 400px 400px;
+    }
+    .ficons img{
+   height: 30px;
+   padding: 20px;
+
 }
 }
 
